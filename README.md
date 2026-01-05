@@ -12,8 +12,7 @@ The primary goal of this project was to **apply real-world data engineering conc
 
 The data warehouse is implemented using a **Medallion Architecture** approach with three logical layers: **Bronze**, **Silver**, and **Gold**.
 
-![Data Architecture](docs/data_architecture.png)
-
+ 
 ### Bronze Layer
 - Raw data ingestion layer
 - Source data is loaded directly from CSV files into SQL Server tables
